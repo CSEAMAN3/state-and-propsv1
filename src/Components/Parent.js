@@ -1,14 +1,10 @@
-import React from 'react'
-import Child from "./Child"
+import React from "react";
+import Child from "./Child";
 
-export default function Parent(){
-
-    const firstName = "Billy"
-    const surName = "Smith"
-
-    return (
+export default function Parent() {
+  return (
     <div>
-        <Child name={firstName} surname={surName} />
+      <Child name="Billy" surname="Smith" />
     </div>
-)
+  );
 }
